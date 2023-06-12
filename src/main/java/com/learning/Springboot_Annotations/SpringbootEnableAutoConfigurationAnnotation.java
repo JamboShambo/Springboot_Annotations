@@ -1,0 +1,15 @@
+package com.learning.Springboot_Annotations;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@EnableAutoConfiguration
+public class SpringbootEnableAutoConfigurationAnnotation {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringbootEnableAutoConfigurationAnnotation.class, args);
+    }
+
+}
